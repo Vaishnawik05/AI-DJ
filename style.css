@@ -1,0 +1,35 @@
+body{
+    background-size: cover;
+}
+
+canvas{
+    height: 100px;
+    width: 100px;
+    animation-name: example; 
+}
+
+@keyframes example
+{
+    from {box-shadow: 1px 1px 38px blue;}
+    to {box-shadow: 1px 1px 38px blueviolet;}
+    to {box-shadow: 1px 1px 38px rgb(156, 156, 243);}
+    to {box-shadow: 1px 1px 38px skyblue;}
+}
+
+.heading{
+    margin: 0px;
+    width: 100%;
+    font-size: 30px;
+    box-shadow: 5px 5px 5px grey;
+    padding: 10px; 
+}
+
+.note{
+    color: blue;
+    font-size: 15px;
+}
+
+#song_name{
+    font-size: 20px;
+    box-shadow: 5px 5px 5px teal;
+}
